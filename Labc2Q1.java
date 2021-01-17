@@ -1,22 +1,23 @@
 /* Question 1: Write a java class having overloaded methods to calculate area of a rectangle and circle  */
-class methoverload
+
+class Labc2Q1
 {
-    public static void main(String[] args)
+    public static void main(String arg[])
     {
-        Areas obj = new Areas();
-        obj.Area(1);
-        obj.Area(2,4);
+        areas obj = new areas();
+        obj.area(1);
+        obj.area(2,4);
     }
 }
-class Areas
+class areas
 {
     double A;
-    void Area(double r)
+    void area(double r)
     {
         A = (r*r*22)/7;
         System.out.println("Area of the circle is "+A);
     }
-    void Area(double l,double b)
+    void area(double l,double b)
     {
         A = l*b;
         System.out.println("Area of the reactangle is "+A);
