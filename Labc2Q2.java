@@ -66,7 +66,7 @@ public class Queue
 
 class Labc2Q2
 {
-        Public static void main(Strings arg[])
+        public static void main(Strings arg[])
         {
                Scanner s = new Scanner(System.in);
                int SIZE=4;
